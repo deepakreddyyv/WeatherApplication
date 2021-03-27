@@ -1,0 +1,101 @@
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.cityInput {
+  margin-top: 20px;
+}
+.button {
+  margin-top: 30px;
+}
+
+
+.weatherDiv .location{
+   text-align: center;
+}
+.weatherDiv .temp {
+  text-align: center;
+  display: inline-block;
+}
+.weatherDiv .img {
+  width: 40px;
+}
+.weatherDiv .desc {
+  text-align: center;
+  font-size: 13px;
+}
+.weatherDiv .humidity {
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 2px;
+  color: grey;
+  font-weight: bolder;
+}
+.weatherDiv .sunrise {
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 2px;
+  color: grey;
+  font-weight: bolder;
+}
+.weatherDiv .sunset {
+  font-size: 10px;
+  text-align: center;
+  color: grey;
+  font-weight: bolder;
+}
+.cardDesign {
+  border: 1px solid black;
+}
+.copyRight {
+   font-weight: bolder;
+   font-size: 19px;
+
+}
+.icon {
+  color: black;
+  margin-right: 3px;
+  opacity: 0.7
+}
+.icon_l {
+  color: black;
+  margin-left: 3px;
+  opacity: 0.7
+}
